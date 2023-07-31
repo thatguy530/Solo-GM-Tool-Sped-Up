@@ -8,7 +8,7 @@ body {
 }
 
 body.switched {
-    transition: color 0.1s, background-color 0.1s;
+    transition: color 0.0s, background-color 0.0s;
 }
 
 h1,
@@ -55,7 +55,7 @@ h2 {
     display: block;
     width: 100%;
     background: white;
-    transition: color 0.1s, background 0.1s;
+    transition: color 0.0s, background 0.0s;
     margin: 0;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -101,7 +101,7 @@ h2 {
 }
 
 .switched .container {
-    transition: background-color 0.1s;
+    transition: background-color 0.0s;
 }
 
 p {
@@ -115,13 +115,13 @@ a {
     font-weight: 700;
     color: #b97c2c;
     font-family: sans-serif;
-    transition: color 0.1s;
+    transition: color 0.0s;
     text-decoration: none;
 }
 
 a:hover {
     color: black;
-    transition: color 0.1s;
+    transition: color 0.0s;
 }
 
 strong {
@@ -145,7 +145,7 @@ img {
 
 .container>* {
     opacity: 1.0;
-    transition: opacity 0.1s;
+    transition: opacity 0.0s;
 }
 
 /*
@@ -193,7 +193,7 @@ img {
     top: 4px;
     user-select: none;
     background: white;
-    transition: color 0.1s, background 0.1s;
+    transition: color 0.0s, background 0.0s;
 }
 
 #controls [disabled] {
@@ -220,7 +220,7 @@ img {
 */
 
 body.dark {
-    background: black;
+    background: blue;
     color: white;
 }
 

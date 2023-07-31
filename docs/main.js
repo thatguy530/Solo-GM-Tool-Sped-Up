@@ -101,7 +101,7 @@
                     storyContainer.appendChild(imageElement);
 
                     showAfter(delay, imageElement);
-                    delay += 200.0;
+                    delay += 0.0;
                 }
 
                 // LINK: url

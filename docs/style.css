@@ -220,7 +220,7 @@ img {
 */
 
 body.dark {
-    background: blue;
+    background: black;
     color: white;
 }
 
@@ -238,7 +238,7 @@ body.dark {
 
 .dark a {
     color: #cc8f1a;
-    transition: color 0.1s;
+    transition: color 0.0s;
 }
 
 .dark a:hover {
